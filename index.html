@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Omar Faruk Himel — Automation Engineer (n8n) | API Integration | Python | JavaScript" />
+  <title>Omar Faruk Himel — Portfolio</title>
+
+  <link rel="preload" href="styles.css" as="style" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__text">Omar Faruk Himel</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" id="navToggle" aria-controls="navLinks" aria-expanded="false">
+          <span class="nav__toggleLines" aria-hidden="true"></span>
+          <span class="sr-only">Open menu</span>
+        </button>
+
+        <div class="nav__links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="header__actions">
+        <a class="btn btn--ghost" href="resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        <button class="btn btn--ghost" id="themeToggle" type="button" aria-label="Toggle dark mode">
+          <span class="themeIcon" aria-hidden="true">☾</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Automation Engineer • Software Engineering Student (DIU)</p>
+          <h1>Building automations that reduce manual work and improve decisions.</h1>
+          <p class="lead">
+            I work with <strong>n8n</strong>, <strong>REST APIs</strong>, <strong>webhooks</strong>, and
+            <strong>Python/JavaScript</strong> to build automation workflows, data pipelines, and reporting systems.
+          </p>
+
+          <div class="chips" role="list" aria-label="Key skills">
+            <span class="chip" role="listitem">n8n (Expert)</span>
+            <span class="chip" role="listitem">API Integration</span>
+            <span class="chip" role="listitem">Python</span>
+            <span class="chip" role="listitem">JavaScript</span>
+            <span class="chip" role="listitem">Node.js</span>
+            <span class="chip" role="listitem">MySQL</span>
+            <span class="chip" role="listitem">Web Scraping</span>
+          </div>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#projects">View Projects</a>
+            <a class="btn btn--ghost" href="resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+            <a class="btn btn--ghost" href="#contact">Contact</a>
+          </div>
+
+          <div class="mini">
+            <div class="mini__row">
+              <span class="mini__label">Email</span>
+              <a class="mini__value" href="mailto:omarfaruk.swe@gmail.com">omarfaruk.swe@gmail.com</a>
+            </div>
+            <div class="mini__row">
+              <span class="mini__label">Phone</span>
+              <a class="mini__value" href="tel:+8801854038035">+8801854038035</a>
+            </div>
+            <div class="mini__row">
+              <span class="mini__label">Location</span>
+              <span class="mini__value">Dhaka, Bangladesh</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero__card" aria-label="Profile card">
+          <div class="profile">
+            <div class="profile__photo">
+              <!-- Put your photo as: profile.jpg -->
+              <img src="OmarFaruk.jpg" alt="Portrait photo of Omar Faruk Himel" loading="lazy" />
+            </div>
+
+            <div class="profile__body">
+              <h2 class="profile__name">Omar Faruk Himel</h2>
+              <p class="profile__title">Automation • Integration • Data Pipelines</p>
+
+              <div class="profile__links" aria-label="Social links">
+                <a class="btn btn--small" href="#" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="btn btn--small" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+              </div>
+
+              <p class="profile__note">
+                Replace GitHub/LinkedIn links with your real profiles.
+              </p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head">
+          <h2>About</h2>
+          <p>
+            I’m an automation-focused Software Engineering student. I enjoy building workflows that connect tools
+            like Google Sheets, databases, and external APIs—so people get results automatically.
+          </p>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3>What I do</h3>
+            <ul class="list">
+              <li>Automation workflows in n8n (webhooks, triggers, integrations)</li>
+              <li>API data collection pipelines (store + clean + prepare data)</li>
+              <li>Reporting automation (email/Telegram, scheduled updates)</li>
+              <li>Basic NLP work for review analysis (sentiment)</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Current focus</h3>
+            <p>
+              Thesis (working): <strong>Customer Perspectives on Hotel Reviews in Dhaka</strong>.
+              Goal: collect and analyze Dhaka hotel reviews to find satisfaction drivers and sentiment trends.
+            </p>
+            <div class="chips chips--tight">
+              <span class="chip">n8n</span>
+              <span class="chip">Python</span>
+              <span class="chip">Google Review Scraper</span>
+              <span class="chip">Pandas</span>
+              <span class="chip">scikit-learn</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__head">
+          <h2>Skills</h2>
+          <p>Tools and technologies I use to build automation and data solutions.</p>
+        </div>
+
+        <div class="grid3">
+          <div class="card">
+            <h3>Automation & Integration</h3>
+            <div class="chips">
+              <span class="chip">n8n</span>
+              <span class="chip">REST API</span>
+              <span class="chip">Webhooks</span>
+              <span class="chip">Basic Web Scraping</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Languages & Backend</h3>
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">Node.js</span>
+              <span class="chip">Express</span>
+              <span class="chip">PHP</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Data & Tools</h3>
+            <div class="chips">
+              <span class="chip">MySQL</span>
+              <span class="chip">MongoDB (Basic)</span>
+              <span class="chip">Power BI</span>
+              <span class="chip">SPSS</span>
+              <span class="chip">NLP (Basic)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section__head">
+          <h2>Projects</h2>
+          <p>Some things I built (edit links and details anytime).</p>
+        </div>
+
+        <div class="grid2">
+          <article class="card project">
+            <div class="project__top">
+              <h3>Automation Hub for Hotel Reviews</h3>
+              <a class="link" href="#" target="_blank" rel="noreferrer">Live / Repo</a>
+            </div>
+            <p>
+              Automated collection and processing of hotel reviews to support analytics and sentiment insights.
+            </p>
+            <ul class="list">
+              <li>Collect reviews (text, rating, date) and store structured data</li>
+              <li>Prepare datasets for analysis and reporting</li>
+            </ul>
+            <div class="chips chips--tight">
+              <span class="chip">n8n</span>
+              <span class="chip">Python</span>
+              <span class="chip">Pandas</span>
+              <span class="chip">Google Reviews</span>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__top">
+              <h3>Business Reporting Automation</h3>
+              <a class="link" href="#" target="_blank" rel="noreferrer">Live / Repo</a>
+            </div>
+            <p>
+              Auto-generated daily/weekly reports by reading from Google Sheets or databases and sending updates.
+            </p>
+            <ul class="list">
+              <li>Scheduled reporting</li>
+              <li>Email/Telegram delivery</li>
+            </ul>
+            <div class="chips chips--tight">
+              <span class="chip">Google Sheets</span>
+              <span class="chip">Automation</span>
+              <span class="chip">Email</span>
+              <span class="chip">Telegram</span>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__top">
+              <h3>API Data Collection Pipeline</h3>
+              <a class="link" href="#" target="_blank" rel="noreferrer">Live / Repo</a>
+            </div>
+            <p>
+              Calls external APIs, saves responses into MySQL, and prepares clean data for analytics/ML.
+            </p>
+            <ul class="list">
+              <li>Reliable data ingestion</li>
+              <li>Cleaning + preparation for analysis</li>
+            </ul>
+            <div class="chips chips--tight">
+              <span class="chip">Python</span>
+              <span class="chip">n8n</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">REST APIs</span>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__top">
+              <h3>Hotel Review Sentiment (Thesis Work)</h3>
+              <a class="link" href="#" target="_blank" rel="noreferrer">Details</a>
+            </div>
+            <p>
+              Review sentiment analysis to help hotel decision-making (identify positive/negative trends).
+            </p>
+            <ul class="list">
+              <li>Text preprocessing</li>
+              <li>Model training + evaluation</li>
+            </ul>
+            <div class="chips chips--tight">
+              <span class="chip">NLP</span>
+              <span class="chip">scikit-learn</span>
+              <span class="chip">Deep Learning (Basic)</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section__head">
+          <h2>Education</h2>
+          <p>Academic background.</p>
+        </div>
+
+        <div class="card">
+          <div class="edu">
+            <div>
+              <h3>B.Sc. in Software Engineering — Daffodil International University</h3>
+              <p class="muted">Dhaka, Bangladesh</p>
+            </div>
+            <div class="edu__meta">
+              <span class="pill">Expected: 2026</span>
+              <span class="pill">CGPA: 3.41 / 4.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contact</h2>
+          <p>Send a message (this form opens your email app).</p>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3>Quick contact</h3>
+            <div class="contactRows">
+              <div class="contactRow">
+                <span class="muted">Email</span>
+                <a href="mailto:omarfaruk.swe@gmail.com">omarfaruk.swe@gmail.com</a>
+              </div>
+              <div class="contactRow">
+                <span class="muted">Phone</span>
+                <a href="tel:+8801854038035">+8801854038035</a>
+              </div>
+              <div class="contactRow">
+                <span class="muted">Location</span>
+                <span>Dhaka, Bangladesh</span>
+              </div>
+            </div>
+
+            <div class="chips chips--tight" style="margin-top:14px;">
+              <span class="chip">Available for internships</span>
+              <span class="chip">Automation projects</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Message</h3>
+            <form id="contactForm" class="form">
+              <label>
+                Your name
+                <input name="name" type="text" autocomplete="name" placeholder="Your name" required />
+              </label>
+
+              <label>
+                Your email
+                <input name="email" type="email" autocomplete="email" placeholder="your@email.com" required />
+              </label>
+
+              <label>
+                Message
+                <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+              </label>
+
+              <button class="btn btn--primary" type="submit">Send</button>
+              <p class="muted small">
+                This uses <code>mailto:</code> (no backend).
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p class="muted small">© <span id="year"></span> Omar Faruk Himel • Built with HTML/CSS/JS</p>
+          <a class="link small" href="#top">Back to top ↑</a>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
